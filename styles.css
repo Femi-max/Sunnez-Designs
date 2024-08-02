@@ -1,0 +1,154 @@
+ /*Global Styles*/
+ . {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+}
+h1,h2,h3,h4,h5,h4{
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #337ab7;
+}
+a:hover{
+    color: #235227;
+}
+button{
+    background: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background: #23527c;
+}
+header{
+    background: #337ab7;
+    padding: 20px;
+    text-align: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    margin-right: 20px;
+}
+header nav a{
+    color: #ccc;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+#home h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#home p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#home button{
+    font-size: 18px;
+    padding: 15px 30px;
+}
+#about{
+    padding: 50px;
+}
+#about h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#about p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#services{
+    padding: 50px;
+}
+#services h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#services ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#services li{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#services li:last-child{
+    margin-right: 0;
+}
+#portfolio{
+    padding: 50px;
+}
+#portfolio h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.gallery{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+
+}
+.gallery img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+#contact label {
+    margin-bottom: 10px;
+}
+#contact input, textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#contact button[type="submit"]{
+    background: #337ab7;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#contact button[type="submit"]:hover{
+    background: #23527c;
+}
+footer{
+    background: #337ab7;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+footer p{
+    margin-bottom: 10px;
+}
